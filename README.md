@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System
+# 🎬 Movie Recommender 
 
 A full-stack Machine Learning application that suggests movies based on content similarity. This project utilizes **Natural Language Processing (NLP)** and **Cosine Similarity** to provide an interactive recommendation experience.
 
@@ -29,8 +29,9 @@ This system analyzes movie metadata—specifically plot summaries and genres—t
 
 ## 📂 Project Structure
 ```plaintext
-├── app.py                # Main Streamlit application
-├── recommender.py        # ML model training and pickle generation
-├── movies.csv            # Dataset containing movie metadata
-├── movies_list.pkl       # Serialized movie dataframe
-├── similarity.pkl        # Serialized similarity matrix
+Movie Recommender
+  ├── app.py                # Main Streamlit application
+  ├── recommender.py        # ML model training and pickle generation
+  ├── movies.csv            # Dataset containing movie metadata
+  ├── movies_list.pkl       # Serialized movie dataframe
+  ├── similarity.pkl        # Serialized similarity matrix
