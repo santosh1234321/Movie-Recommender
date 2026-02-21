@@ -33,4 +33,7 @@ This system analyzes movie metadata—specifically plot summaries and genres—t
 ├── recommender.py        # ML model training and pickle generation
 ├── movies.csv            # Dataset containing movie metadata
 ├── movies_list.pkl       # Serialized movie dataframe
-└── similarity.pkl        # Serialized similarity matrix
+├── similarity.pkl        # Serialized similarity matrix
+└── frontend/             # Custom Svelte-based UI components
+    ├── public/           # Compiled build assets (bundle.js, bootstrap.css)
+    └── src/              # Source code (ImageGallery.svelte, main.ts)
